@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:700i&display=swap');
+
 /**
  * Site Header
  * ----------------------------------------------------------------------------
@@ -43,13 +45,14 @@
 
 .site-logo {
   margin: 0;
+  display: flex;
+  flex-direction: column;
 
   a {
     border: 0;
-  }
-
-  img {
-    max-height: 60px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Crimson Text', serif;
   }
 }
 
@@ -138,7 +141,7 @@
 #menu-toggle {
   position: absolute;
   right: 4vw;
-  top: 3.33333em;
+  top: 4.33333em;
   z-index: 9999;
 }
 
@@ -199,7 +202,12 @@
 
   .site-logo {
     img {
-      max-height: 120px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: auto;
+      border: 1px solid #FFFFFF;
+      justify-content: center;
     }
   }
 

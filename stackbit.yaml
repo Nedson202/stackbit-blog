@@ -63,11 +63,6 @@ sourceMapping:
       file: data/social.json
       fieldPath: 'links[0].url'
   - source:
-      fieldPath: social.instagram.url
-    target:
-      file: data/social.json
-      fieldPath: 'links[1].url'
-  - source:
       fieldPath: social.github.url
     target:
       file: data/social.json
@@ -97,11 +92,6 @@ sourceMapping:
     target:
       file: data/social.json
       fieldPath: 'links[2]'
-  - action: delete
-    condition: context.social && !context.social.instagram
-    target:
-      file: data/social.json
-      fieldPath: 'links[1]'
   - action: delete
     condition: context.social && !context.social.twitter
     target:
