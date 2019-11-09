@@ -8,17 +8,18 @@
 }
 
 .inner {
-  max-width: 750px;
+  max-width: 100%;
 }
 
 .site-content {
   padding: 2.5em 4vw 1.66667em;
 
   @media only screen and (min-width: 801px) {
-    margin-left: 30vw;
+    padding-left: 300px;
+    padding-right: 300px;
   }
 
-  @media only screen and (min-width: 1091px) {
+  /*@media only screen and (min-width: 1091px) {
     padding-left: 6vw;
     padding-right: 6vw;
   }
@@ -27,7 +28,7 @@
     margin-left: 450px;
     padding-left: 130px;
     padding-right: 130px;
-  }
+  }*/
 }
 
 .site-main {

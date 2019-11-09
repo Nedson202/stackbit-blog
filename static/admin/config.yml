@@ -260,7 +260,7 @@ collections:
     folder: src/pages/
     create: true
     extension: md
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
       - widget: string
         name: title
@@ -327,7 +327,7 @@ collections:
     folder: src/pages/posts
     create: true
     extension: md
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
       - widget: string
         name: title
@@ -365,7 +365,7 @@ collections:
         name: hide_header
         label: Hide header
         required: false
-        default: false
+        default: true
         hint: Hide the left side in the single post.
       - widget: object
         name: menus

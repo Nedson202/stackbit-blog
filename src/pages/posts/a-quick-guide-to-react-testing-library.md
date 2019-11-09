@@ -1,16 +1,17 @@
 ---
-title: Dynamically Render Images Like A Pro.
+title: A Quick Guide To React Testing Library(RTL)
 date: '2019-10-20'
 thumb_img_path: images/tapping-wis.jpeg
 content_img_path: images/tapping-wis.jpeg
 excerpt: >-
   User interface designs are moving away from the use of loading spinners, static progress bar, to content loaders also called skeleton screens to handle different loading states of an application or a view on display before a webpage is loaded.
+  Obey the testing goat.
 template: post
 ---
 
 ![Drawing infinite wisdom :)](/images/tapping-wis.jpeg)
 
-User interface designs are moving away from the use of loading spinners, static progress bars, to content loaders also called skeleton screens to handle different loading states of an application or a view on display before a webpage is loaded.
+User interface designs are moving away from the use of loading spinners, static progress bar, to content loaders also called skeleton screens to handle different loading states of an application or a view on display before a webpage is loaded.
 
 A static progress bar or the use of spinners on a blank page can easily be a loading indicator on web pages but concern around their use is the fact that you could easily assume that the page being loaded has frozen if there is no observable change within a timeframe.
 
@@ -39,8 +40,9 @@ You can find the source code of what we will build [here](https://medium.com/r/?
 
 If you prefer to clone the repository and just read along, you can clone the repository to your machine using:
 
+If you do not have `yarn` installed, you can do so using `npm i -g yarn`.
+
 ```
-$ npm i -g yarn // if you don't have yarn installed
 $ git clone https://github.com/Nedson202/iDrag-Imagery.git
 $ cd iDrag-imagery
 $ git checkout image-render-with-content-loader

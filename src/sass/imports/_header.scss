@@ -141,7 +141,7 @@
 #menu-toggle {
   position: absolute;
   right: 4vw;
-  top: 4.33333em;
+  top: 1em;
   z-index: 9999;
 }
 
@@ -217,10 +217,6 @@
 
   .site-description {
     font-size: 1.11111rem;
-  }
-
-  #menu-toggle {
-    display: none;
   }
 
   .site-navigation {
